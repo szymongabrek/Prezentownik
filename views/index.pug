@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .row
+    .col.s12
+      ul.collapsible
+        li.collection-header
+          .row
+            .col.s8
+              h3 Dodaj prezent dla:
+            .col.s4
+              a.waves-effect.waves-light.btn-large.secondary-content.green.darken-2
+                i.material-icons.left face
+                | Add
+
+        li
+          .collapsible-header
+            i.material-icons face
+            |       Stasio
+            span.badge.new.indigo.lighten-2(data-badge-caption="prezenty") 4
+          .collapsible-body
+            p Playstation 5
+            p Kiełbasa
+            a.btn-floating.secondary-content.deep-orange.darken-2
+              i.material-icons add
+
+        li
+          .collapsible-header
+            i.material-icons face
+            |       Zdzisio
+            span.badge.new.indigo.lighten-2(data-badge-caption="prezenty") 4
+          .collapsible-body
+            p Xbox X
+            a.btn-floating.secondary-content.deep-orange.darken-2
+              i.material-icons add
